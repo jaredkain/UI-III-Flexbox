@@ -102,8 +102,7 @@ header nav a:hover {
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 40px;
-
-	border-bottom: 1px solid black;
+	margin-bottom: 80px;
 }
 
 .cta .cta-text {
@@ -126,11 +125,24 @@ header nav a:hover {
     padding: 8px 40px;
 	display: flex;
 	align-items: center;
+	font-size: 16px;
+	letter-spacing: .08em;
+	cursor: pointer;
+	border-radius: 1px;
 }
 
-.cta .cta-button a {
+ .cta-button a {
 	cursor: pointer;
 	text-decoration: none;
+	color: black;
+}
+
+.cta-button:hover {
+	background-color: black;
+}
+
+.cta-button:hover a {
+	color: white;
 }
 
 .services-summary {
@@ -156,7 +168,6 @@ header nav a:hover {
 .middle-content .text-container-1 {
 	width: 49%;
 	margin-top: 30px;
-	padding: 20px;
 }
 
 .middle-content .text-container-2 {
@@ -182,7 +193,7 @@ header nav a:hover {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 40px;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 }
 
 .bottom-content .services-facts {
@@ -205,9 +216,13 @@ ul li {
 	padding-left: 10px;
 }
 
+.contact {
+	margin-top: 40px;
+}
+
 footer {
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 footer .footer-text {
